@@ -2,22 +2,22 @@
   "configurations": [
     {
       "type": "java",
-      "name": "CodeLens (Launch) - AnonymousInner",
+      "name": "CodeLens (Launch) - ArgsTest",
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "console": "internalConsole",
       "stopOnEntry": false,
-      "mainClass": "AnonymousInner",
+      "mainClass": "ArgsTest",
       "args": ""
     },
     {
       "type": "java",
-      "name": "CodeLens (Launch) - Cow",
+      "name": "CodeLens (Launch) - ArgTest",
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "console": "internalConsole",
       "stopOnEntry": false,
-      "mainClass": "Cow",
+      "mainClass": "ArgTest",
       "args": ""
     }
   ]

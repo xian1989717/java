@@ -2,22 +2,22 @@
   "configurations": [
     {
       "type": "java",
-      "name": "CodeLens (Launch) - AnonymousInner",
+      "name": "CodeLens (Launch) - GenderTest",
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "console": "internalConsole",
       "stopOnEntry": false,
-      "mainClass": "AnonymousInner",
+      "mainClass": "GenderTest",
       "args": ""
     },
     {
       "type": "java",
-      "name": "CodeLens (Launch) - Cow",
+      "name": "CodeLens (Launch) - EnumTest",
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "console": "internalConsole",
       "stopOnEntry": false,
-      "mainClass": "Cow",
+      "mainClass": "EnumTest",
       "args": ""
     }
   ]
