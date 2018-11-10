@@ -1,6 +1,6 @@
-abstract class Shape {
+public abstract class Shape {
   {
-    System.out.println("执行Shape的初始化块......");
+    System.out.println("1111");
   }
   private String color;
 
@@ -9,19 +9,18 @@ abstract class Shape {
   public abstract String getType();
 
   public Shape() {
-
   };
 
   public Shape(String color) {
-    System.out.println("执行Shape的构造器...");
     this.color = color;
-  }
+    System.out.println("2222");
+  };
+
+  public setColor(String color){
+    this.color = color;
+  };
 
   public String getColor() {
     return this.color;
-  }
-
-  public void setColor(String color) {
-    this.color = color;
-  }
+  };
 }

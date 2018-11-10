@@ -1,4 +1,4 @@
-class Triangle extends Shape {
+public class Triangle extends Shape {
   private double a;
   private double b;
   private double c;
@@ -10,31 +10,19 @@ class Triangle extends Shape {
 
   public void setSides(double a, double b, double c) {
     if (a >= b + c || b >= a + c || c >= a + b) {
-      System.out.println("三角形两边之和必须大于第三边");
+      System.out.println("san jiao xing liang bian zhi he bi xu da yu di san bian");
       return;
     }
-    this.a = a + 10.00;
+    this.a = a;
     this.b = b;
     this.c = c;
   }
 
   public double calPerimeter() {
-    return this.a + this.b + this.c;
+    return a + b + c;
   }
 
   public String getType() {
-    return "三角形";
-  }
-
-  public static void main(String[] args) {
-    Triangle triangle = new Triangle("red", 1.00, 3.00, 3.00);
-    triangle.calPerimeter();
-  }
-}
-
-public class T {
-  public static void main(String[] args) {
-    Triangle triangle = new Triangle("red", 1.00, 3.00, 3.00);
-    triangle.calPerimeter();
+    return "san jiao xing";
   }
 }
